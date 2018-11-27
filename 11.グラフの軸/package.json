@@ -1,0 +1,15 @@
+{
+  "name": "d3-line-sample",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "browserify index.js > public/out.js",
+    "start": "http-server"
+  },
+  "author": "Owen",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "5.7.0",
+    "http-server": "0.11.1",
+    "browserify": "16.2.3"
+  }
+}
